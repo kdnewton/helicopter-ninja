@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="100" height="75" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" source="set_01.tsx"/>
+ <tileset firstgid="5" source="items.tsx"/>
+ <layer name="BACKGROUND" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y2WoCQRBAUX3Ivm9m/f/vTD2kQRODMypdd6buhQJXupgDA7pYWKWWPzP3M6eSHqz0YKUHKz1Y6cGqssdJzGnMWcx58i6tyh4XMZcxVzHXybu0KnvcxNzG3MXcJ+/SquzxEPMY8xTznLxLq7LHS8wq5jXmLXmXVmWP95iPmM+Yr+RdWpU9erec0cyh7GtI85iCbaX7lR6cMzPPHZMerPRgpQcrPVjpwUoPVnqw0oOVHqz0YFXRI/M/zaE79kyP3Tv2LNuDnB6s9GClBys9WOnBSo/+589hjnk9ssq+hnqMz/sVKz1Y6cFKD1Z6sNKDlR6sKnpk/gYaumPP9Ni9Y8+yPcjpwUoPVnqw0oOVHqz0YKUHKz1YVfQgm1T1oJpU9iCaVPRYf9xzj0P/zyTNMa/H7+e9TLKvId1j/TXKvavq/Wrb6wQTPTbfyzbR4+/7mSZ6bP9Mloke/3+OvOPUzxx7bpZJlTP3OTfDRI9h3+n9m7FnU/I45HtmZpl9A/MzFQMwdQAA
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3dQWrDMABFQdHk/mfupsWrEFcN6NmaB39va0BL+znGeFpqGuPxs5XxOOLRikcrHq14tOLRikcrHq0qHl+Ln6ESj1Y8WpU8Xm2nZjweH947j51cZjzOnN1fdtZjB5cr3Fc7mVzV464mPFpd2eOOJjxa8Wh1dY/Vz/7peLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLTi0YpHKx6teLSa8Tj73YWz43E04zF7dq/G48h91YpHKx6teLTi0YpHq9/3WhmPVjxa8WjFoxWPVjxa8WjFo9V/PFb/o++um/Uw22HftbVcBDB1AAA=
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgYgSgJlMHUAAA==
+  </data>
+ </layer>
+ <objectgroup name="ACTORS" width="0" height="0">
+  <object name="Player" x="44" y="95" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="DOORS" width="0" height="0">
+  <object name="Goal" x="640" y="96" width="144" height="16">
+   <properties>
+    <property name="to" value="levels/level_01.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

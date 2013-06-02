@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="1" height="1" tilewidth="640" tileheight="480">
+ <tileset name="worldmap" firstgid="1" tilewidth="640" tileheight="480">
+  <image source="../images/overworld.png"/>
+ </tileset>
+ <layer name="Layer 0" width="1" height="1">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNkYGAAAHm4+JkEAAAA
+  </data>
+ </layer>
+</map>

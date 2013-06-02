@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="100" height="75" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" source="set_01.tsx"/>
+ <tileset firstgid="5" source="items.tsx"/>
+ <layer name="BACKGROUND" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3Y2W6DMBBGYbjovi/p/v7P2YnUSmANiSKB5x/7fNLc1eDkNAQyDACA1ox/Aw3jQBM1x5qc2ZzbXNhc1tpU58om0zZXNtc2Nza3lffVs3HwPyt3Nvc2DzaPAfvqmdfjyebZ5sXmNWJTnVr6fOxs3mzebT4C9oW5T5svm2+bn+C9AMAhUc+LPKf66KGFHlrooaV8Ljll1jgv5qJ7RJ1fVfT1ih5z0T1qr1VHDy300EIPLb33ULtH6L3H9Hj0qL926Vj0iO9RdqBH/bXlMRQaTGXssda51Vrs9dZDucVe9PuSaW0N0T34PXGOHlqie9Reqy7q/5MePnpo4XqlhR5a6KGFHlrooYUeWuihhR5a6KGFHlrooYUeWuihJbpH1O/LquihJer94Hrl66FHpnbR16ut12a7vrXcI+N3Tqs9st4HtNqj/Fv1Dv+23Ouh49LDt3WPpWPTw7fWXk+9N6aHr1aP8hz08LX++cim9e+PbFq/v8qm9eePbOihhR5a6KGFHlrooaXl1wYAU78eeysgMHUAAA==
+  </data>
+ </layer>
+ <layer name="PLATFORMS" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3aOwrDMAAFQZH4/mdOm8bYoESsxQy82p8FNfYxxjgstafb5T1U7mOWHi16tOjRokeLHi16tOjRokeLHi2re7wnd/Uc/7j2zl6TO3Onx6+vybldzqtd6NGiR4seLXq06NGiR4seLXq06NGiR4seLXq06NGiR4seLSt6+K5434oevive57xq0aNFjxY9WvRo0aNFj5YdezztH+pvxXuapUeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOjRokeLHi16tOzQw8zsCfsA1d5yzjB1AAA=
+  </data>
+ </layer>
+ <layer name="FOREGROUND" width="100" height="75">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAO3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPgYgSgJlMHUAAA==
+  </data>
+ </layer>
+ <objectgroup name="ACTORS" width="0" height="0">
+  <object name="Player" x="56" y="566" width="8" height="8"/>
+ </objectgroup>
+ <objectgroup name="DOORS" width="0" height="0">
+  <object name="Goal" x="624" y="80" width="112" height="16">
+   <properties>
+    <property name="to" value="levels/level_02.tmx"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
